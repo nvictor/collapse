@@ -1,6 +1,6 @@
 # hn
 
-Chrome extension for hacker news. 
+Chrome extension for [hacker news](https://news.ycombinator.com). 
 
 Auto-collapses all comments and marks most active threads (+5 points) red. 
 
