@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "hn",
+    "version": "0.1",
+    "icons": {
+        "128": "plus.png"
+    },
+    "browser_action": {},
+    "content_scripts": [
+        {
+            "matches": [
+                "https://news.ycombinator.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
