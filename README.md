@@ -1,8 +1,8 @@
-# hn
+# collapse
 
 Chrome extension for [hacker news](https://news.ycombinator.com). 
 
-Auto-collapses all comments and marks most active threads (+5 points) red. 
+Auto-collapses comments and colors threads that have 5 points and more in red. 
 
 ## Install
 
@@ -12,7 +12,6 @@ Auto-collapses all comments and marks most active threads (+5 points) red.
 
 ## Caveats
 
-1. Be reasonable & use discretion
 1. Only works on HN submission pages
 1. Does not access user data
 1. Did not test with logged-in user (I have another auto-collapse script but it's more complicated)
